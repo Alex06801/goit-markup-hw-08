@@ -37,6 +37,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="mobile-menu-open_icon" width="40" height="40">
+            <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
         <ul class="list contact-list">
           <li class="contact-item">
             <a class="contact-mail link" href="mailto:info@devstudio.com">
@@ -56,17 +61,26 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu_container">
+        <button class="mobile-menu_close-btn" data-menu-close>
+          <svg class="mobile-menu_close-icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-close-botton"></use>
+          </svg>
+        </button>
+      </div>
+      </div>
     </header>
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="modal-btn" type="button" data-modal-open>Замовити послугу</button>
         </div>
-      </section>
+      </section> -->
       <!-- ABOUT -->
-      <section class="about">
+      <!-- <section class="about">
         <div class="container about-container">
           <h2 class="visually-hidden">Наша работа</h2>
           <ul class="list about-list">
@@ -332,9 +346,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Client-->
-      <section class="section-client">
+      <!-- <section class="section-client">
         <div class="container">
           <h2 class="section-title-client">Постійні клієнти</h2>
           <ul class="list-clients list">
@@ -383,9 +397,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- ==============FOOTER=============== -->
-    <footer class="footer">
+     <!-- <footer class="footer">
       <div class="container footer-social">
         <div>
           <a class="link logo logo-footer" href="./index.html" lang="en">
@@ -535,7 +549,9 @@
           <button type="submit" class="modal-form-submit">Відправити</button>
         </form>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+
+    <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script>  -->
   </body>
 </html>
