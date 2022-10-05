@@ -28,7 +28,6 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-
 .modal-form-input-desc {
   display: block;
   font-size: 12px;
@@ -71,13 +70,6 @@
     border-color: var(--accent-color);
   }
 }
-
-.modal-form-check:checked + .modal-form-check-desc::before {
-  background-color: var(--accent-color);
-  background-image: url(../images/check.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .modal-form-check-desc {
   display: flex;
   align-items: center;
@@ -94,7 +86,18 @@
     content: '';
     margin-right: 9px;
   }
+  @media screen and (max-width: 479px) {
+    width: 30px;
+  }
 }
+
+.modal-form-check:checked + .modal-form-check-desc::before {
+  background-color: var(--accent-color);
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .modal-form-submit {
   font-family: 'Roboto', sans-serif;
   align-self: center;

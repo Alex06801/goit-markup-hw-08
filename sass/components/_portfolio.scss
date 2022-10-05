@@ -29,8 +29,13 @@
 }
 .btn-container {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 8px;
+  @media screen and (max-width: 767px) {
+    justify-content: flex-start;
+    row-gap: 15px;
+  }
+  justify-content: center;
 }
 .projects {
   font-weight: 700;
@@ -97,8 +102,4 @@
   padding-right: 24px;
   border-top: none;
   border: 1px solid #eeeeee;
-}
-.footer .footer-social {
-  display: flex;
-  align-items: baseline;
 }

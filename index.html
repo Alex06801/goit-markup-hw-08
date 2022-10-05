@@ -117,8 +117,8 @@
         </div>
       </section>
       <!-- ABOUT -->
-      <section class="about">
-        <div class="container about-container">
+      <section class="about section">
+        <div class="container">
           <h2 class="visually-hidden">Наша работа</h2>
           <ul class="list about-list">
             <li class="about-item">
@@ -171,7 +171,7 @@
       <!-- GALLERY -->
       <section class="gallery section">
         <div class="container">
-          <h2 class="main-text">Чим ми займаємося</h2>
+          <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work list">
             <li class="pictures">
               <picture>
@@ -211,7 +211,7 @@
       </section>
       <section class="team section">
         <div class="container">
-          <h2 class="main-text">Наша команда</h2>
+          <h2 class="section-title">Наша команда</h2>
           <ul class="team-foto list">
             <li class="pic-item-team">
               <img
@@ -388,11 +388,10 @@
           </ul>
         </div>
       </section>
-      -->
       <!-- Client-->
-      <section class="section-client">
+      <section class="client section">
         <div class="container">
-          <h2 class="section-title-client">Постійні клієнти</h2>
+          <h2 class="section-title">Постійні клієнти</h2>
           <ul class="list-clients list">
             <li class="client-item">
               <a href="#" class="client-link">
@@ -401,35 +400,35 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="client-item">
               <a href="#" class="client-link">
                 <svg class="icon-client" width="106" height="60">
                   <use href="./images/icons.svg#group-1"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="client-item">
               <a href="#" class="client-link">
                 <svg class="icon-client" width="106" height="60">
                   <use href="./images/icons.svg#group-2"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="client-item">
               <a href="#" class="client-link">
                 <svg class="icon-client" width="106" height="60">
                   <use href="./images/icons.svg#group-3"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="client-item">
               <a href="#" class="client-link">
                 <svg class="icon-client" width="106" height="60">
                   <use href="./images/icons.svg#group-4"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="client-item">
               <a href="#" class="client-link">
                 <svg class="icon-client" width="106" height="60">
                   <use href="./images/icons.svg#group-5"></use>
@@ -443,62 +442,64 @@
     <!-- ==============FOOTER=============== -->
     <footer class="footer">
       <div class="container footer-social">
-        <div>
-          <a class="link logo logo-footer" href="./index.html" lang="en">
-            <span class="accent-logo">Web</span><span class="logo-footer">Studio</span></a
-          >
-          <address class="footer-address">
-            <ul class="list address-list">
-              <li class="address-item">
-                <a
-                  class="link address"
-                  href="https://goo.gl/maps/86ALLpU7BCTRykUt7"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >м. Київ, пр-т Лесі Українки, 26
+        <div class="footer-wrap">
+          <div class="footer-address">
+            <a class="link logo logo-footer" href="./index.html" lang="en">
+              <span class="accent-logo">Web</span><span class="logo-footer">Studio</span></a
+            >
+            <address class="address">
+              <ul class="list address-list">
+                <li class="address-item">
+                  <a
+                    class="link address-link"
+                    href="https://goo.gl/maps/86ALLpU7BCTRykUt7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >м. Київ, пр-т Лесі Українки, 26
+                  </a>
+                </li>
+                <li class="address-item">
+                  <a class="link mail" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="address-item">
+                  <a class="link tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="media-footer">
+            <p class="media">приєднуйтесь</p>
+            <ul class="social-list-footer list">
+              <li class="social-list-item">
+                <a href="" class="social-list-link-footer">
+                  <svg class="socail-list-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="address-item">
-                <a class="link mail" href="mailto:info@example.com">info@example.com</a>
+              <li class="social-list-item">
+                <a href="" class="social-list-link-footer">
+                  <svg class="socail-list-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address-item">
-                <a class="link tel" href="tel:+380991111111">+38 099 111 11 11</a>
+              <li class="social-list-item">
+                <a href="" class="social-list-link-footer">
+                  <svg class="socail-list-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link-footer">
+                  <svg class="socail-list-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-        <div class="media-footer">
-          <p class="media">приєднуйтесь</p>
-          <ul class="social-list-footer list">
-            <li class="social-list-item">
-              <a href="" class="social-list-link-footer">
-                <svg class="socail-list-icon-footer" width="20" height="20">
-                  <use href="./images/icons.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link-footer">
-                <svg class="socail-list-icon-footer" width="20" height="20">
-                  <use href="./images/icons.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link-footer">
-                <svg class="socail-list-icon-footer" width="20" height="20">
-                  <use href="./images/icons.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link-footer">
-                <svg class="socail-list-icon-footer" width="20" height="20">
-                  <use href="./images/icons.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
         <div class="form-footer">
           <p class="form-footer-message">Підпишіться на розсилку</p>
